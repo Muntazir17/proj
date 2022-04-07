@@ -1,0 +1,95 @@
+body {
+    background-image: url(3.jpg);
+    padding: 0;
+    margin: auto;
+    background-repeat: repeat;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+label {
+    color: white;
+    height: 60px;
+    width: 250px;
+    background-color: #0b8;
+    position: fixed;
+    margin: auto;
+
+    display: flex;
+    font-size: 20px;
+    padding: 0px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    hover-color: blue;
+}
+
+label:hover {
+    background-color: #94CBF9;
+}
+
+.navbar ul {
+    overflow: auto;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    margin: 5px 15px;
+}
+
+.navbar li a {
+    padding: 0px;
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+
+}
+
+.navbar li a:hover {
+    color: #94CBF9;
+    text-decoration: underline;
+}
+
+.navbar li i {
+    padding: 0px;
+    text-decoration: none;
+    color: green;
+    margin: 0px 0px;
+}
+
+.text {
+    font-size: 40px;
+    font-family: Dishonorable Mention;
+    margin: 150px 560px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+    position: absolute;
+    color: #0b8;
+    margin: auto;
+    top: 50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    font-size: 20px;
+    padding: 0px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    hover-color: blue;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
